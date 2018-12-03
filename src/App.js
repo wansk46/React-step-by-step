@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="">
-      <button onClick ={this.add1toNumber}>Hello world!</button>
+      <button onClick ={this.props.clickedFunction}>clickedFunction</button>
       <span>number:{this.props.defaultNum}</span>
       </div>
     );
