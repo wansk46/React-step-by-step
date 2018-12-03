@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="">
       <button onClick ={this.add1toNumber}>Hello world!</button>
-      <span>number:{this.state.number}</span>
+      <span>number:{this.props.defaultNum}</span>
       </div>
     );
   }
